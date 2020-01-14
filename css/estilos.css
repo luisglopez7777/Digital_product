@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+:root{
+--green-color: #7ACC2D;
+--white-color: white;
+--black-color: black;
+--space: 10px;
+--normal: 12px;
+--box: 0 0 1px #c1bcbc;
+}
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+p, label{
+  font-size: var(--normal);
+}
+
+nav{
+  display: flex;
+  background-color:var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+}
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+nav li a{
+  color: black;
+  text-decoration: none;
+}
+nav li a:hover{
+  color: var(--white-color);
+}
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+/* Inicio Productos */
+.products{
+  background-image: url("../images/curve.png");
+  height: 95px;
+  background-position: center top;
+  padding: 15%;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product{
+  padding: var(--space);
+  margin-top: -230px;
+}
+.content{
+  background-color: var(--white-color);
+  padding: 20px;
+  box-shadow: 0px 0px 2px 1px #e6ege9;
+}
+.img_content{
+  text-align: center;
+}
+.main_button{
+  background-color: #7ACC2D;
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main_button:hover{
+  background-color: #5e9e22;
+}
+/* Fin de productos
+Inicio beneficios */
+.beneficios{
+  padding: 10%;
+  display: flex;
+}
+.beneficio{
+  padding: 10%;
+  text-align: center;
+}
+.beneficio img {
+  max-height: 100px;
+}
+.text_beneficio{
+  text-align: justify;
+}
+/* Find de beneficios
+Inicio de menciones */
+.mentions{
+  display: flex;
+  padding: 5%;
+}
+.mention img{
+  width: 100%;
+}
+h2.mention_title{
+  text-align: center;
+}
+.mention{
+  padding: var(--space);
+}
+.content_mention{
+  box-shadow: 0px 0px 2px 1px #e6e5e9;
+}
+.mention .text{
+  padding: var(--space);
+}
+/* Fin de menciones 
+Inicio de venta */
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+.modulo_pago_images{
+  max-width: 150px;
+  margin: auto;
+}
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+.modulo_pago .main_button{
+  margin-top: 10px;
+}
+
+
+/* Fin de venta
+Inicio del footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: 20px;
+  color: #e9e3e3;
+}
+footer a{
+  color: #e9e3e3;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+
+
